@@ -11,16 +11,27 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="navbar_container">
-            <img src="/img/logo.png" alt="logo" class="logo">
-            <img class="mobile_menu" src="/img/bars.svg" alt="">
-            <ul class="navbar_list">
-                <a class="navbar_items" href="">Inicio</a>
-                <a class="navbar_items" href="">Servicios <img class="down_arrow" src="/img/caret-down.svg" alt=""></a>
-                <a class="navbar_items" href="https://forms.gle/KEgp7Wx86CLXeWg79">Agenda</a>
-            </ul>
+        <div class="navbar__container">
+          <a href="#"><img src="/img/logo.png" alt="" hr></a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="#home" class="navbar__links" id="home-page">Inicio</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#about" class="navbar__links" id="home-page">Servicios</a>
+            </li>
+            <li class="navbar__item">
+              <a href="https://forms.gle/afiwWSRXy5fmKoj59" class="navbar__links" id="home-page">Agenda</a>
+            </li>
+          </ul>
         </div>
     </div>
+    
     <div class="dropdown">
         <a href=""></a>
         <a href=""></a>
@@ -33,5 +44,6 @@
             <img src="/img/hero.png" class="hero_img">
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
