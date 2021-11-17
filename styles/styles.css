@@ -98,7 +98,7 @@ body{
       border: #D0D0D0 1px solid;
       opacity: 1;
       top: 80px;
-      transition: all 0.5s ease;
+      transition: all 0.1s ease;
       z-index: 99;
       height: 30vh;
       font-size: 1.6rem;
