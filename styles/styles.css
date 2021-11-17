@@ -16,11 +16,12 @@ body{
     background: #FFFFFF;
     border: 1px solid #D0D0D0;
     height: 80px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 999;
   }
